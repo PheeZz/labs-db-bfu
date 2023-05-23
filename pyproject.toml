@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "labs-db-bfu"
+version = "0.1.0"
+description = ""
+authors = ["PheeZz <jagubkoff@gmail.com>"]
+readme = "README.md"
+packages = [{include = "labs_db_bfu"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+psycopg2 = "^2.9.6"
+psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
