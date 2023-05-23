@@ -1,1 +1,1 @@
-from .lab_1 import Lab1
+from .labs_src import Lab1
