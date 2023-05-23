@@ -8,3 +8,4 @@ def run_lab1():
 
 if __name__ == '__main__':
     run_lab1()
+
